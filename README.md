@@ -1,36 +1,22 @@
-# ios-exam
+# Persons Exam - iOS
 
-## Goal of the exam ##
-To assess a developer's skills in terms of developing iOS apps and decision-making on solving common development tasks.
+This project was made for this iOS Exam https://github.com/waynestark/ios-exam
 
-## Tasks ##
 
-- Fork this repository
-- Create an iOS Swift 3 project with the following features:
-    - Uses Model-View ViewModel Design Pattern or Other Design Pattern Just Indicate what design pattern did you use
-    - Loads and shows a list of Persons from a remote source
-    - Caches the loaded list of Persons
-    - Prevents any loading from the remote source if the cache is available
-    - Shows the full details of a Person on a separate screen
-    - Each `Person` must have the following data:
-        - First name
-        - Last name
-        - Birthday
-        - Age (derived from Birthday)
-        - Email address
-        - Mobile number
-        - Address
-        - Contact person
-        - Contact person's phone number
-- Send an email once done to arjay.paulino@cybilltek.com  CC. ysabel.garcesa@cybilltek.com
+### Tech and Tools
 
-Any libraries or tools of the developer's choosing may be used.
+* Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)
+* Xcode 9.4.1 
 
-## Optional requirements ##
+And of course Dillinger itself is open source with a [public repository][dill]
+ on GitHub.
 
-- Changes are committed following Git Flow
-- Unit tests
-- UI tests
-- iOS Design Guidelines
-- Adaptive User Interfaces
-- RxSwift / RxCocoa technology
+### Building and Running
+
+Install the dependencies via *Cocoapods*.
+
+```
+pod install
+```
+
+
